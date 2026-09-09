@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JobFinder Pro</title>
+
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <a href="index.html" class="logo">
+        JobFinder<span>Pro</span>
+    </a>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="saved-jobs.html">Saved Jobs</a>
+        <a href="dashboard.html">Dashboard</a>
+    </div>
+
+</nav>
+
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">YOUR NEXT OPPORTUNITY</p>
+
+            <h1>
+                Find Jobs You <span>Love.</span>
+            </h1>
+
+            <p class="hero-text">
+                Search jobs by title, skill, company or location.
+            </p>
+
+
+            <form id="searchForm" class="search-box">
+
+                <input
+                    type="text"
+                    id="keyword"
+                    placeholder="Job title or keyword"
+                >
+
+                <input
+                    type="text"
+                    id="location"
+                    placeholder="Location"
+                >
+
+                <button type="submit">
+                    Search Jobs
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="section-head">
+
+            <div>
+                <p class="eyebrow">LATEST OPENINGS</p>
+                <h2>Featured Jobs</h2>
+            </div>
+
+            <a href="jobs.html">
+                View All →
+            </a>
+
+        </div>
+
+
+        <div id="featuredjobs" class="job-grid"></div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+    © 2026 JobFinder Pro - Built with HTML, CSS & JavaScript
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

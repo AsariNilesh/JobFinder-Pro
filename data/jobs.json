@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer Intern",
+        "company": "Technova",
+        "location": "Ahmedabad",
+        "salary": "₹10,000/month",
+        "type": "internship",
+        "category": "frontend",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "description": "Build responsive web interfaces and work with the frontend team.",
+        "requirements": [
+            "Basic HTML, CSS and JavaScript",
+            "Responsive design knowledge",
+            "Basic Git"
+        ]
+    },
+
+    {
+        "id": 2,
+        "title": "Junior Frontend Developer",
+        "company": "Webcraft",
+        "location": "Gandhinagar",
+        "salary": "₹3-5 LPA",
+        "type": "full-time",
+        "category": "frontend",
+        "skills": [
+            "JavaScript",
+            "React",
+            "Git"
+        ],
+        "description": "Develop modern user interfaces and reusable components.",
+        "requirements": [
+            "JavaScript fundamentals",
+            "React basics",
+            "Good communication"
+        ]
+    },
+
+    {
+        "id": 3,
+        "title": "UI/UX Design Intern",
+        "company": "Pixelworks",
+        "location": "Ahmedabad",
+        "salary": "₹8,000/month",
+        "type": "internship",
+        "category": "design",
+        "skills": [
+            "Figma",
+            "UI Design"
+        ],
+        "description": "Create clean and user-friendly interfaces for web products.",
+        "requirements": [
+            "Figma basics",
+            "Design principles",
+            "Portfolio"
+        ]
+    }
+]
